@@ -5,7 +5,7 @@ Python 3.7 <br>
 Pytorch 1.2.0 <br> 
 ## Reference
 ```
-@inproceedings{zhao2021graph,<br>
+@inproceedings{zhao2021graph,
 	title={Graph debiased contrastive learning with joint representation clustering},
 	author={Zhao, Han and Yang, Xu and Wang, Zhenru and Yang, Erkun and Deng, Cheng},
 	booktitle={Proc. IJCAI},
