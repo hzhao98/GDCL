@@ -8,7 +8,6 @@ Pytorch 1.2.0 <br>
 @inproceedings{zhao2021graph,
 	title={Graph debiased contrastive learning with joint representation clustering},
 	author={Zhao, Han and Yang, Xu and Wang, Zhenru and Yang, Erkun and Deng, Cheng},
-	booktitle={Proc. IJCAI},
-	pages={3434--3440},
+	booktitle={IJCAI},
 	year={2021}
 }
