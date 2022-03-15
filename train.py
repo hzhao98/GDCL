@@ -298,7 +298,7 @@ def train_ucgl(dataset):
     adj = adj.cuda()
     diff = diff.cuda()
     #obtain features of positive samples
-    features_mask = features
+    features_mask = features.clone()
     for i in range(features_mask.shape[1]):
         idx = random.sample(range(1, features_mask.shape[2]), 200)
         features_mask[0][i][idx] = 0
