@@ -484,5 +484,5 @@ if __name__ == '__main__':
     #mask_num 200
     #[pos_size, neg_size,lr,update_interval]
     #Cora [10, 1000, 5*10e-5, 2], Citesser [70, 1000, 7*10e-5, 1], pubmed [450, 7000, 5*10e-5, 2]
-    for __ in range(50):
+    for __ in range(50): # For reproducing through multiple running times due to the randomness of contrastive sample selection in each iteration
         train_ucgl(args.dataset)
