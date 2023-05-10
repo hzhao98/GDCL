@@ -481,5 +481,8 @@ if __name__ == '__main__':
         args.n_clusters = 3
     args.model_path = os.path.join('/youpath/UCGL_' + args.dataset + '_' + str(args.hid_units) + '.pkl')
 
+    #mask_num 200
+    #[pos_size, neg_size,lr,update_interval]
+    #Cora [10, 1000, 5*10e-5, 2], Citesser [70, 1000, 7*10e-5, 1], pubmed [450, 7000, 5*10e-5, 2]
     for __ in range(50):
         train_ucgl(args.dataset)
